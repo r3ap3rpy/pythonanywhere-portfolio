@@ -17,6 +17,7 @@
       <h1 class="heading">About me</h1>
       <p>I'm the firstborn son of a father called Ernő, and a mother called Ildikó. I was born on a cold winter day dated as the 10th of January 1991. I have spent my childhood like any other millenial of the 90s. Playing games on my computer and some football with my friends on the streets of Hosszúpályi, my hometown. After elementary school I went to middle school in Debrecen. Where I feel in love with the IT and programming. After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. I have developed a passion for scripting and programming. Anyone who has every written anything that made the life easier for others and thyself knows the feeling I got so hooked up to. In my freetime I love spending time with my dogs, they are the most awesome creatures, apart from this I spend a great deal improving my skills, studying.</p>
 
+      {% if repos is defined %}
       <h1 class="heading">Publicity:</h1>
         <h2 class="title">Github.io powered  <a href="https://r3ap3rpy.github.io/" target="_blank">site</a>!</h2>
         <h2 class="title">YouTube <a href="https://www.youtube.com/channel/UC1qkMXH8d2I9DDAtBSeEHqg" target="_blank">channel</a>!</h2>
@@ -36,7 +37,7 @@
         <h3 class="subtitle">{{ video['ChannelName'] }} -->> <a href="https://www.youtube.com/watch?v={{ video['ID'] }}" target="_blank">{{ video['VideoName'] }}</a></h3>
           <h4 class="date">    {{ video['Description'] | safe }}</h4>
       {% endfor %}
-
+      {% endif %}
       <h1 class="heading">Work Experience</h1>
 
         <h2 class="title">LEGO - DevOps Engineer - (June. 2018 - Present)</h2>
