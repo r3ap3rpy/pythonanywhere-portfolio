@@ -17,31 +17,41 @@
       <h1 class="heading">About me</h1>
       <p>I'm the firstborn son of a father called Ernő, and a mother called Ildikó. I was born on a cold winter day dated as the 10th of January 1991. I have spent my childhood like any other millenial of the 90s. Playing games on my computer and some football with my friends on the streets of Hosszúpályi, my hometown. After elementary school I went to middle school in Debrecen. Where I feel in love with the IT and programming. After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. I have developed a passion for scripting and programming. Anyone who has every written anything that made the life easier for others and thyself knows the feeling I got so hooked up to. In my freetime I love spending time with my dogs, they are the most awesome creatures, apart from this I spend a great deal improving my skills, studying.</p>
 
+      <h1 class="heading">Publicity:</h1>
+        <h2 class="title">Github.io powered  <a href="https://r3ap3rpy.github.io/" target="_blank">site</a>!</h2>
+        <h2 class="title">YouTube <a href="https://www.youtube.com/channel/UC1qkMXH8d2I9DDAtBSeEHqg" target="_blank">channel</a>!</h2>
+
+      <h1 class="heading">My GitHub repositories</h1>
+      {% for repo in repos %}
+
+        <p><h3 class="subtitle"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h3> ({{ repo.description }})</p>
+      {% endfor %}
+
+      <h1 class="heading">My YouTube Channel: <a href="https://www.youtube.com/channel/{{ ytbchnl['ID'] }}" target="_blank">{{ ytbchnl['Title'] }}</a>!</h1>
+      <h2 class="title">{{ ytbchnl['Description' ]}}</h2>
+      <h3 class="subtitle">{{ ytbchnl['VideoName'] }}</h3>
+      <h2 class="title">Videos: </h2>
+      <br>
+      {% for video in ytbchnl['Videos'] %}
+        <h3 class="subtitle">{{ video['ChannelName'] }} -->> <a href="https://www.youtube.com/watch?v={{ video['ID'] }}" target="_blank">{{ video['VideoName'] }}</a></h3>
+          <h4 class="date">    {{ video['Description'] | safe }}</h4>
+      {% endfor %}
+
       <h1 class="heading">Work Experience</h1>
 
-        <h2 class="title">LEGO</h2>
-          <h3 class="subtitle">DevOps Engineer</h3>
-            <h4 class="date">June. 2018 - Present</h4>
+        <h2 class="title">LEGO - DevOps Engineer - (June. 2018 - Present)</h2>
               <p>Responsible for the software packaging and deployment via PSADTK and SCCM. Creating automation scripts via Powershell, and Python. Writing platform  based reusable modules to automate daily tasks, some ad-hoc scripting and code reviews. Automated reporting and statistical data representation of VMWare a Citrix platforms, integrated with Confluence and Jira.</p>
 
-        <h2 class="title">National Instruments</h2>
-          <h3 class="subtitle">Web Systems Engineer</h3>
-            <h4 class="date">March. 2017 - May. 2018 </h4>
+        <h2 class="title">National Instruments - Web Systems Engineer - (March. 2017 - May. 2018)</h2>
               <p>Responsible for the overall health of ni.com. Platforms supported are Akamai, Apache, Weblogic, IBM Websphere Commerce, Sterling Configurator, Thycotic Secret Server, Varnish cache, and automation via Python.</p>
 
-        <h2 class="title">IT Services Hungary</h2>
-          <h3 class="subtitle">Experienced Network Administrator</h3>
-          <h4 class="date">Nov. 2015 - March 2017</h4>
+        <h2 class="title">IT Services Hungary - Experienced Network Administrator - (Nov. 2015 - March 2017)</h2>
               <p>Responsible for the overal health of the SHELL network stack throughout multiple datacenters. Platforms supported NXOS, IOS, Juniper, Checkpoint and automated configuration and capacity reporting via Python and MySQL backend.</p>
 
-        <h2 class="title">IT Services Hungary</h2>
-          <h3 class="subtitle">System Administrator</h3>
-          <h4 class="date">March 2013 - Nov. 2015</h4>
+        <h2 class="title">IT Services Hungary - System Administrator - (March 2013 - Nov. 2015)</h2>
               <p>Supporting multiple finance sector customer's server backends across multiple datacenters. Platforms supported Microsoft AD/DNS, VMWare ESXi and automated configuration and capacity reporting via Powershell.</p>
 
-        <h2 class="title">IT Services Hungary</h2>
-          <h3 class="subtitle">Trainee</h3>
-          <h4 class="date">Oct. 2012 - March 2013</h4>
+        <h2 class="title">IT Services Hungary - Trainee - (Oct. 2012 - March 2013)</h2>
               <p>Participating in a migration project which resulted in a unified t-systems domain, tasks were to migrate client PC-s to the new domain, and troubleshoot/resolve problems that occured.</p>
 
     </div>
