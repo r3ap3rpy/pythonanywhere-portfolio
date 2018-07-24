@@ -28,7 +28,6 @@ def index():
 		'Videos' : []
 	}
 
-
 	for item in Playlists:
 		ItemsToProcess = []
 
