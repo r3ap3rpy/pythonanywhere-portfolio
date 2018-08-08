@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div id='spacing'>
+	</div>
+<div class="row">
+         {% for video in ytbchnl['Videos'] %}
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a href="https://www.youtube.com/watch?v={{ video['ID'] }}" target="_blank"><img class="rounded-circle img-fluid d-block mx-auto" src="{{ video['VideoPic'] }}" alt=""></a>
+          <h3>
+            {{ video['VideoName'] }}
+          </h3>
+          <p><small>{{ video['Description'] | safe }}</small></p>
+        </div>
+         {% endfor %}
+      </div>
+{% endblock %}

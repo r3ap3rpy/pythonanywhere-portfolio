@@ -1,115 +1,33 @@
-<!DOCTYPE html>
-<html>
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
-<head>
-</head>
-<body>
-<div class="container">
-  <div class="row">
-     <div class="col-xs-12" id="resHead">
-         <h3>The Resume Of</h3>
-         <h1>Szabó Dániel Ernő</h1>
-         <img width=100px class="img-responsive"  src="{{url_for('static', filename='logom.png')}}" />
-     </div>
-   </div>
-  <div class="row">
-    <div class="col-xs-12 col-md-6" id="workExp">
-      <h1 class="heading">About me</h1>
-      <p>I'm the firstborn son of a father called Ernő, and a mother called Ildikó. I was born on a cold winter day dated as the 10th of January 1991. I have spent my childhood like any other millenial of the 90s. Playing games on my computer and some football with my friends on the streets of Hosszúpályi, my hometown. After elementary school I went to middle school in Debrecen. Where I feel in love with the IT and programming. After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. I have developed a passion for scripting and programming. Anyone who has every written anything that made the life easier for others and thyself knows the feeling I got so hooked up to. In my freetime I love spending time with my dogs, they are the most awesome creatures, apart from this I spend a great deal improving my skills, studying.</p>
+{% extends "base.html" %}
+{% block content %}
 
-      {% if repos is defined %}
-      <h1 class="heading">Publicity:</h1>
-        <h2 class="title">Github.io powered  <a href="https://r3ap3rpy.github.io/" target="_blank">site</a>!</h2>
-        <h2 class="title">YouTube <a href="https://www.youtube.com/channel/UC1qkMXH8d2I9DDAtBSeEHqg" target="_blank">channel</a>!</h2>
+ <header class="py-5 bg-image-full" >
+      
+      <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='logom.png')}}" alt="" />
+    </header>
 
-      <h1 class="heading">My GitHub repositories</h1>
-      {% for repo in repos %}
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+        <h1>About me</h1>
+        <p class="lead">Character is simply habit long continued - Plato</p>
+        <p>I'm the firstborn son of a father called Ernő, and a mother called Ildikó. I was born on a cold winter day dated as the 10th of January 1991. I have spent my childhood like any other millenial of the 90s. Playing games on my computer and some football with my friends on the streets of Hosszúpályi, my hometown. After elementary school I went to middle school in Debrecen. Where I feel in love with IT and programming. After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. I have developed a passion for scripting and programming. </p>
+      </div>
+    </section>
 
-        <p><h3 class="subtitle"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h3> ({{ repo.description }})</p>
-      {% endfor %}
+ <header class="py-5 bg-image-full" >
+      
+      <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='sigil.png')}}" alt="" />
+    </header>
 
-      <h1 class="heading">My YouTube Channel: <a href="https://www.youtube.com/channel/{{ ytbchnl['ID'] }}" target="_blank">{{ ytbchnl['Title'] }}</a>!</h1>
-      <h2 class="title">{{ ytbchnl['Description' ]}}</h2>
-      <h3 class="subtitle">{{ ytbchnl['VideoName'] }}</h3>
-      <h2 class="title">Videos: </h2>
-      <br>
-      {% for video in ytbchnl['Videos'] %}
-        <h3 class="subtitle">{{ video['ChannelName'] }} -->> <a href="https://www.youtube.com/watch?v={{ video['ID'] }}" target="_blank">{{ video['VideoName'] }}</a></h3>
-          <h4 class="date">    {{ video['Description'] | safe }}</h4>
-      {% endfor %}
-      {% endif %}
-      <h1 class="heading">Work Experience</h1>
 
-        <h2 class="title">LEGO - DevOps Engineer - (June. 2018 - Present)</h2>
-              <p>Responsible for the software packaging and deployment via PSADTK and SCCM. Creating automation scripts via Powershell, and Python. Writing platform  based reusable modules to automate daily tasks, some ad-hoc scripting and code reviews. Automated reporting and statistical data representation of VMWare a Citrix platforms, integrated with Confluence and Jira.</p>
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Aishita Wo Narase</h1>
+        <p class="lead">The unexamined life is not worth living. - Socrates</p>
+        <p>You may wonder how this page came to be. The site you are looking at is a delicate mixture of Python, Jinja and Bootstrap. In my free time I usually do something geeky, which about either Python or Powershell. Check out my dynamically updating Github repositories, and the Youtube Channel where I publish videos every now and then. If you want you can also contact me. I believe in that learning should never stop, it allows the person a unique perspective into this world, and provide them with mental well-being!</p>
+      </div>
+    </section>
 
-        <h2 class="title">National Instruments - Web Systems Engineer - (March. 2017 - May. 2018)</h2>
-              <p>Responsible for the overall health of ni.com. Platforms supported are Akamai, Apache, Weblogic, IBM Websphere Commerce, Sterling Configurator, Thycotic Secret Server, Varnish cache, and automation via Python.</p>
-
-        <h2 class="title">IT Services Hungary - Experienced Network Administrator - (Nov. 2015 - March 2017)</h2>
-              <p>Responsible for the overal health of the SHELL network stack throughout multiple datacenters. Platforms supported NXOS, IOS, Juniper, Checkpoint and automated configuration and capacity reporting via Python and MySQL backend.</p>
-
-        <h2 class="title">IT Services Hungary - System Administrator - (March 2013 - Nov. 2015)</h2>
-              <p>Supporting multiple finance sector customer's server backends across multiple datacenters. Platforms supported Microsoft AD/DNS, VMWare ESXi and automated configuration and capacity reporting via Powershell.</p>
-
-        <h2 class="title">IT Services Hungary - Trainee - (Oct. 2012 - March 2013)</h2>
-              <p>Participating in a migration project which resulted in a unified t-systems domain, tasks were to migrate client PC-s to the new domain, and troubleshoot/resolve problems that occured.</p>
-
-    </div>
-    <div class="col-xs-12 col-md-6" id="skillEdu">
-      <h1 class="heading">Skills</h1>
-
-        <h2 class="title">Operating Systems - Deeper level</h2>
-        <p>Microsoft Windows Server (2003,2008,2008R2,2012,2012R2)</p>
-        <p>RHEL, OVM, Debian, Raspbian, Gentoo,CentOS</p>
-
-       <h2 class="title">Scripting - Professional</h2>
-        <p>Python 2.*/3.*</p>
-        <p>Powershell 2/3/4/5</p>
-
-      <h1 class="heading">Education</h1>
-        <h2 class="title">University of Debrecen (Bsc.)</h2>
-          <h3 class="subtitle">Information Engineer (Infocommunication spec.)</h3>
-        <h2 class="title">Mechwart András Gépipari és Informatikai Szakközép Iskola</h2>
-          <h3 class="subtitle">IT Spec.</h3>
-    </div>
-    <div class="col-xs-12 col-md-6" id="skillEdu">
-      <h1 class="heading">Languages</h1>
-        <h2 class="title">Engilsh - Professional level</h2>
-        <h2 class="title">German - Starter level</h2>
-    </div>
-    <div class="col-xs-12 col-md-6" id="skillEdu">
-      <h1 class="heading">Achievements</h1>
-
-        <h2 class="title">Archery Championship - 2006 - Sopron - Bronze medal</h2>
-        <h2 class="title">Archery Championship - 2008 - Estonia - Gold medal</h2>
-        <h2 class="title">Automation (IT Services Hungary) - 2015 - SQL reporting automation with Powershell</h2>
-        <h2 class="title">Automation (IT Services Hungary) - 2016 - DCDiscovery</h2>
-        <h2 class="title">Automation (National Instuments) - 2017 - demigod (Python library for automation)</h2>
-        <h2 class="title">Automation (National Instuments) - 2017 - FTPHandler (Python script for private FTP requests)</h2>
-        <h2 class="title">Automation (National Instuments) - 2017 - Heimdall (Flask based homesite for our team)</h2>
-
-    </div>
-  </div>
-  <div class="row">
-  <div class="contact col-xs-12">
-    <img width=100px class="img-responsive"  src="{{url_for('static', filename='letter.png')}}" />
-   <h1 class="title">Contact</h1>
-      <p class="subtitle">
-          Hungary <br/>
-          4274, Hosszúpályi<br />
-          Világos street 2<br />
-        <a href="tel:+36-70-327-41-59">+36-70-327-41-59</a><br />
-        <a target="_blank" href="https://twitter.com/r3ap3rpy">Twitter</a><br />
-        <a target="_blank" href="https://www.youtube.com/channel/UC1qkMXH8d2I9DDAtBSeEHqg">YouTube</a><br />
-        <a target="_blank" href="https://github.com/r3ap3rpy">GitHub</a><br />
-        <a href="mailto:r3ap3rpy@gmail.com">r3ap3rpy[at]gmail[dot]com</a><br /></p>
-
-                </div>
-</div>
-</div>
-
-</body>
-
-</html>
-
+{% endblock%}
