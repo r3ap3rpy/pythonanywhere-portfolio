@@ -10,10 +10,11 @@ try:
 	project_folder = os.path.expanduser('~/mysite')
 	load_dotenv(os.path.join(project_folder, '.env'))
 except:
-	TOKEN = os.getenv('PAT')
-	CHNID = os.getenv('YTCHN')
-	CHAPI = os.getenv('YTAPI')
+	pass
 
+TOKEN = os.getenv('PAT')
+CHNID = os.getenv('YTCHN')
+CHAPI = os.getenv('YTAPI')
 
 app = Flask(__name__)
 delta = 60 * 20
