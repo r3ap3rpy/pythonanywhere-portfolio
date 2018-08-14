@@ -1,22 +1,29 @@
-from flask import Flask, render_template
+from flask import Flask, render_template,send_from_directory
 from github import Github
 from datetime import datetime, timedelta
 import requests
 import os
-from dotenv import load_dotenv
 
-project_folder = os.path.expanduser('~/mysite')
-load_dotenv(os.path.join(project_folder, '.env'))
+try:
+	from dotenv import load_dotenv
+
+	project_folder = os.path.expanduser('~/mysite')
+	load_dotenv(os.path.join(project_folder, '.env'))
+except:
+	TOKEN = os.getenv('PAT')
+	CHNID = os.getenv('YTCHN')
+	CHAPI = os.getenv('YTAPI')
+
 
 app = Flask(__name__)
-
-TOKEN = os.getenv('PAT')
-CHNID = os.getenv('YTCHN')
-CHAPI = os.getenv('YTAPI')
-
 delta = 60 * 20
-	
 gth = Github(TOKEN)
+
+
+@app.route("/favicon.ico")
+def favicon():
+	return send_from_directory(os.path.join(app.root_path,'static'), 'favicon.ico', mimetype = 'image/vnd.microsoft.icon')
+
 
 hubCache = {'response':{'rendered':None,'time':datetime.now()}}
 @app.route("/github")
