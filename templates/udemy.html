@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id='spacing'></div>
+    <section class="py-5">
+      <div class="container">
+        <h1 align="center">Discounted videos</h1>
+        <div id='spacing'></div>
+<div class="row">
+  {% for video in Paid %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <a href="https://www.udemy.com{{ video['url'] }}" target="_blank"><img class="rounded-circle img-fluid d-block mx-auto" src="{{ video['image_480x270']}}" alt=""></a>
+      <h3> {{ video['title'] }} </h3>
+      <p><small>{{ video['Title'] | safe }}</small></p>
+    </div>
+  {% endfor %}
+</div>
+      </div>
+    </section>
+
+
+    <section class="py-5">
+      <div class="container">
+        <h1 align="center">Free videos</h1>
+        <div id='spacing'></div>
+<div class="row">
+  {% for video in Free %}
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <a href="https://www.udemy.com{{ video['url'] }}" target="_blank"><img class="rounded-circle img-fluid d-block mx-auto" src="{{ video['image_480x270']}}" alt=""></a>
+      <h3> {{ video['title'] }} </h3>
+      <p><small>{{ video['Title'] | safe }}</small></p>
+    </div>
+  {% endfor %}
+</div>
+      </div>
+    </section>
+{% endblock%}

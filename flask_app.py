@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from requests.auth import HTTPBasicAuth
 import requests
 import os
+import json
 
 try:
 	from dotenv import load_dotenv
@@ -20,9 +21,7 @@ CHAPI = os.getenv('YTAPI')
 CLID = os.getenv('CLID')
 CLSEC = os.getenv('CLSEC')
 
-#prepared udemy tab
-#requests.get(url = 'https://www.udemy.com/api-2.0/courses/?search=Szab%C3%B3%20D%C3%A1niel', auth = HTTPBasicAuth(CLID,CLSEC)).text
-
+auth = HTTPBasicAuth(CLID,CLSEC)
 
 app = Flask(__name__)
 delta = 60 * 20
@@ -106,6 +105,22 @@ def ytube():
 		tubeCache['response']['time'] = str(datetime.now() + timedelta(seconds=delta))
 
 	return render_template('ytube.html', ytbchnl = tubeCache['response']['rendered'])
+
+@app.route('/udemy')
+def udemy():
+	PAID = []
+	FREE = []
+	for course in dict(json.loads(requests.get(url = 'https://www.udemy.com/api-2.0/courses/?search=Szab%C3%B3%20D%C3%A1niel%20Ern%C5%91', auth = auth).text))['results']:
+		print(course)
+		if course['visible_instructors'][0]['initials'] == 'SE':
+			print(course)
+			if course['is_paid'] == True:
+				PAID.append(course)
+			else:
+				FREE.append(course)
+	print("Free: ",len(FREE))
+	print("Paid: ",len(PAID))
+	return render_template('udemy.html', Paid = PAID, Free = FREE)
 
 
 @app.route("/education")
