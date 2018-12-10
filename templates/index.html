@@ -1,33 +1,44 @@
 {% extends "base.html" %}
+
 {% block content %}
 
- <header class="py-5 bg-image-full" >
-      
-      <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='logom.png')}}" alt="" />
-    </header>
+    <header class="py-5 bg-image-full" > <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='logom.png')}}" alt="" /> </header>
 
-    <!-- Content section -->
     <section class="py-5">
       <div class="container">
         <h1>About me</h1>
-        <p class="lead">Character is simply habit long continued - Plato</p>
         <p>I'm the firstborn son of a father called Ernő, and a mother called Ildikó. I was born on a cold winter day dated as the 10th of January 1991. I have spent my childhood like any other millenial of the 90s. Playing games on my computer and some football with my friends on the streets of Hosszúpályi, my hometown. After elementary school I went to middle school in Debrecen. Where I feel in love with IT and programming. After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. I have developed a passion for scripting and programming. </p>
       </div>
     </section>
 
- <header class="py-5 bg-image-full" >
-      
-      <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='sigil.png')}}" alt="" />
-    </header>
+    <header class="py-5 bg-image-full" > <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='sigil.png')}}" alt="" /> </header>
 
-
-    <!-- Content section -->
     <section class="py-5">
-      <div class="container">
-        <h1>Aishita Wo Narase</h1>
+      <div class="container">        
+        <h1>Disclaimer</h1>
         <p class="lead">The unexamined life is not worth living. - Socrates</p>
         <p>You may wonder how this page came to be. The site you are looking at is a delicate mixture of Python, Jinja and Bootstrap. In my free time I usually do something geeky, which about either Python or Powershell. Check out my dynamically updating Github repositories, and the Youtube Channel where I publish videos every now and then. If you want you can also contact me. I believe in that learning should never stop, it allows the person a unique perspective into this world, and provide them with mental well-being!</p>
       </div>
     </section>
 
+    <section class="py-5">
+      <div class="container">                
+      <a href="https://twitter.com/r3ap3rpy" target="_blank">
+        <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='img/twitter.png')}}" alt="" />
+      </a>
+      </br>
+      <a href="https://www.linkedin.com/in/dániel-ernő-szabó-081359157" target="_blank">
+        <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='img/linkedin.png')}}" alt="" />            
+      </a>
+      </br>      
+      <a href="https://github.com/r3ap3rpy" target="_blank">
+        <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='img/github.png')}}" alt="" />            
+      </a>
+      </br>
+      <a href="https://www.youtube.com/channel/UC1qkMXH8d2I9DDAtBSeEHqg" target="_blank">
+        <img width=100px class="img-fluid d-block mx-auto"   src="{{url_for('static', filename='img/ytube.png')}}" alt="" />            
+      </a>
+      </div>
+    </section>
+    
 {% endblock%}

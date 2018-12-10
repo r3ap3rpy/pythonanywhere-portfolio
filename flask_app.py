@@ -1,6 +1,7 @@
 from flask import Flask, render_template,send_from_directory
 from github import Github
 from datetime import datetime, timedelta
+from requests.auth import HTTPBasicAuth
 import requests
 import os
 
@@ -12,9 +13,16 @@ try:
 except:
 	pass
 
+
 TOKEN = os.getenv('PAT')
 CHNID = os.getenv('YTCHN')
 CHAPI = os.getenv('YTAPI')
+CLID = os.getenv('CLID')
+CLSEC = os.getenv('CLSEC')
+
+#prepared udemy tab
+#requests.get(url = 'https://www.udemy.com/api-2.0/courses/?search=Szab%C3%B3%20D%C3%A1niel', auth = HTTPBasicAuth(CLID,CLSEC)).text
+
 
 app = Flask(__name__)
 delta = 60 * 20
