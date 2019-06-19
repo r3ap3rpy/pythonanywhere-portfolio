@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for filename in certs %}	
+		<br>
+		<a href="/static/img/certs/{{filename}}" target="_blank">
+			<img width=auto class="img-fluid d-block mx-auto"   src="/static/img/certs/{{filename}}" alt="{{filename}}"  stye="margin-top: 100px;"/>
+		</a>>
+		<br>
+	
+{% endfor %}
+
+{% endblock %}

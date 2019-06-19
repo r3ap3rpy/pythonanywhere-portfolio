@@ -1,0 +1,285 @@
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:26:48,605 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:26:48,616 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:26:48,620 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:26:56,166 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:26:56,174 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:26:56,176 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:26:56,176 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:26:56,186 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:26:56,191 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:26:56,195 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:26:56,195 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:27:00,886 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:27:00,886 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:27:00,895 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:31:23,116 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:31:23,775 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:31:23,786 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:32:44,746 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:32:45,307 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:32:45,316 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:33:33,855 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:33:33,855 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:33:33,866 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:34:28,686 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:34:28,686 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:34:28,686 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:34:28,686 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:34:28,689 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:34:28,689 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:34:28,689 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:34:28,689 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:34:28,689 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:35:51,071 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:35:51,076 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:35:51,076 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:35:51,076 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:35:51,076 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:35:51,076 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:35:52,776 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:35:52,786 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:35:52,786 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:35:52,786 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:37:24,717 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:37:24,717 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:37:24,717 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:37:24,717 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:37:24,727 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:37:24,727 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:37:24,728 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:37:24,728 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:37:24,728 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:37:24,728 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:37:24,728 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:37:31,837 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:37:55,195 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:37:55,195 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:37:55,195 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:37:55,200 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:37:55,204 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:37:55,204 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:38:47,280 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:38:47,285 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:39:36,639 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:39:36,639 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:39:36,649 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:39:41,940 - PyPortfolio - INFO - Serving favicon to client on address: {request.remote_addr} with user agent: {request.user_agent}
+2019-06-19 09:39:49,230 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Initializing the Flask application!
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:39:49,240 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:39:52,346 - PyPortfolio - INFO - # Serving favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:40:20,023 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:40:24,910 - PyPortfolio - INFO - # Serving favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 09:41:24,495 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:41:24,495 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:41:24,495 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:41:24,495 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:41:24,495 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:41:24,500 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:41:24,500 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:41:24,500 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:41:24,500 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:41:24,500 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - ##################################################
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 09:45:09,961 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:01:30,951 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:01:30,951 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:01:30,951 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:01:30,951 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:01:30,951 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:01:30,960 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:01:30,960 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:01:30,960 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:01:30,960 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:01:30,960 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:01:38,150 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:01:38,155 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:01:38,160 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:01:38,160 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:01:38,160 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:01:47,520 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:01:47,530 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:01:55,800 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:01:55,800 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:01:55,800 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:01:55,800 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:01:55,810 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:02:02,880 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:02:07,830 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:02:07,830 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:02:07,840 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:02:23,541 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:02:27,421 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:02:27,421 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:02:27,426 - PyPortfolio - INFO - # Trying to gather information from ENV variables!
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:02:27,430 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:02:33,335 - PyPortfolio - INFO - # Serving /index to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:02:33,414 - PyPortfolio - INFO - # Serving /favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:02:38,671 - PyPortfolio - INFO - # Serving /github to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:02:40,171 - PyPortfolio - INFO - # Serving /favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:02:42,561 - PyPortfolio - INFO - # Serving /youtube to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:03:03,611 - PyPortfolio - INFO - # Serving /certificates to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:03:03,684 - PyPortfolio - INFO - # Serving /favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:03:04,620 - PyPortfolio - INFO - # Serving /education to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:03:07,471 - PyPortfolio - INFO - # Serving /experience to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:03:07,541 - PyPortfolio - INFO - # Serving /favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
