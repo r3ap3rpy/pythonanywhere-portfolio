@@ -84,12 +84,12 @@ def ytube():
 
 			for item in Playlists:
 				ItemsToProcess = []
-				url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={}&key={}".format(item['id'],EnvCache['YTAPI'])
+				url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={item['id']}&key={EnvCache['YTAPI']}"
 				PlaylistResponse = requests.get(url=url).json()
 				ItemsToProcess.append(PlaylistResponse['items'])
 
 				while PlaylistResponse.get('nextPageToken'):
-					url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&pageToken={}&playlistId={}&key={}".format(PlaylistResponse.get('nextPageToken'),item['id'],EnvCache['YTAPI'])
+					url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&pageToken={PlaylistResponse.get('nextPageToken')}&playlistId={item['id']}&key={EnvCache['YTAPI']}"
 					PlaylistResponse = requests.get(url=url).json()
 					ItemsToProcess.append(PlaylistResponse['items'])
 
@@ -110,11 +110,11 @@ def ytube():
 		for item in Playlists:
 			
 			ItemsToProcess = []
-			url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={}&key={}".format(item['id'],EnvCache['YTAPI'])
+			url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={item['id']}&key={EnvCache['YTAPI']}"
 			PlaylistResponse = requests.get(url=url).json()
 			ItemsToProcess.append(PlaylistResponse['items'])
 			while PlaylistResponse.get('nextPageToken'):
-				url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&pageToken={}&playlistId={}&key={}".format(PlaylistResponse.get('nextPageToken'),item['id'],EnvCache['YTAPI'])
+				url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&pageToken={PlaylistResponse.get('nextPageToken')}&playlistId={item['id']}&key={EnvCache['YTAPI']}"
 				PlaylistResponse = requests.get(url=url).json()
 				ItemsToProcess.append(PlaylistResponse['items'])
 			for kitem in ItemsToProcess:
@@ -132,7 +132,7 @@ def udemy():
 	FREE = []
 	for course in dict(json.loads(requests.get(url = 'https://www.udemy.com/api-2.0/courses/?search=Szab%C3%B3%20D%C3%A1niel%20Ern%C5%91', auth = auth).text))['results']:
 		if course['visible_instructors'][0]['initials'] == 'SE':
-			if course['is_paid'] == True:
+			if course['is_paid']:
 				PAID.append(course)
 			else:
 				FREE.append(course)
