@@ -11,24 +11,23 @@ from logging.handlers import RotatingFileHandler
 
 app = Flask(__name__)
 
+try:
+	from dotenv import load_dotenv
+	project_folder = os.path.expanduser('~/mysite')
+	logpath = os.path.sep.join([project_folder,'logs','portfolio.logs'])
+	load_dotenv(os.path.join(project_folder, '.env'))	
+except:
+	logpath = os.path.sep.join(['logs','portfolio.logs'])
+
 logging.basicConfig(format='%(asctime)s %(levelname)s :: %(message)s', level=logging.INFO)
 logger = logging.getLogger('PyPortfolio')
-handler = RotatingFileHandler("logs\\portfolio.logs", mode='a', maxBytes=1000000, backupCount=100, encoding='utf-8', delay=0)
+handler = RotatingFileHandler(logpath, mode='a', maxBytes=1000000, backupCount=100, encoding='utf-8', delay=0)
 handler.setLevel(logging.INFO)
 handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 logger.addHandler(handler)
 
 logger.info("#"*50)
 logger.info("# Spinning up the beast!")
-
-try:
-	from dotenv import load_dotenv
-	project_folder = os.path.expanduser('~/mysite')
-	load_dotenv(os.path.join(project_folder, '.env'))
-	logger.info(f"# Successfully loaded the environment variables from .env file!")
-except:
-	logger.info(f"# Trying to gather information from ENV variables!")
-	pass
 
 EnvCache = {}
 
