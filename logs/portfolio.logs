@@ -330,3 +330,42 @@
 2019-06-19 10:22:43,946 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
 2019-06-19 10:22:43,946 - PyPortfolio - INFO - # Creating basic authentication for Udemy
 2019-06-19 10:22:43,946 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:29:17,736 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:29:18,266 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:29:18,266 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:29:18,266 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:29:18,266 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:29:18,276 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:29:18,276 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:29:18,276 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:29:18,276 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:29:18,276 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:29:22,166 - PyPortfolio - INFO - # Serving /experience to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:29:23,726 - PyPortfolio - INFO - # Serving /udemy to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:29:24,343 - PyPortfolio - INFO - # Serving /favicon to client on address: 127.0.0.1 with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:29:48,896 - PyPortfolio - INFO - # Initializing the pyGitHub client!
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - ##################################################
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Spinning up the beast!
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Successfully loaded environment variable: PAT with value: :)
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Successfully loaded environment variable: YTCHN with value: :)
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Successfully loaded environment variable: YTAPI with value: :)
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Successfully loaded environment variable: CLID with value: :)
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Successfully loaded environment variable: CLSEC with value: :)
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Creating basic authentication for Udemy
+2019-06-19 10:32:20,866 - PyPortfolio - INFO - # Initializing the pyGitHub client!

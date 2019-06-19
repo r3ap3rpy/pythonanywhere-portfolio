@@ -39,8 +39,10 @@ for env_variable in ['PAT','YTCHN','YTAPI','CLID','CLSEC']:
 		logger.critical(f"# Cannot find environment variable: {env_variable}, cannot continue!")
 		raise SystemExit
 
+print(EnvCache)
+
 logger.info(f"# Creating basic authentication for Udemy")
-auth = HTTPBasicAuth(EnvCache['CLID'],EnvCache['CLID'])
+auth = HTTPBasicAuth(EnvCache['CLID'],EnvCache['CLSEC'])
 
 logger.info(f"# Initializing the pyGitHub client!")
 pygthb = Github(EnvCache['PAT'])
