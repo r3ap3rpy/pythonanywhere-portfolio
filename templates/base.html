@@ -18,12 +18,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
+        <a class="navbar-brand" href="{{ url_for('index') }}">Home</a>
         <a class="navbar-brand" href="https://r3ap3rpy.github.io/" target='_blank'>Github.io</a>
         <a class="navbar-brand" href="http://shortenpy.pythonanywhere.com/" target='_blank'>ShortenPy</a>
-        <a class="navbar-brand" href="{{ url_for('index') }}">Home</a>
+        
         <a class="navbar-brand" href="{{ url_for('github') }}">Github Repos</a>
         <a class="navbar-brand" href="{{ url_for('ytube') }}">YTUBE</a>
-        <a class="navbar-brand" href="{{ url_for('udemy') }}">UDEMY</a>
+        <a class="navbar-brand" href="{{ url_for('udemy') }}">Udemy</a>
+        <a class="navbar-brand" href="{{ url_for('psight') }}">Pluralsight</a>
         <a class="navbar-brand" href="{{ url_for('education') }}">Education and Skills</a>
         <a class="navbar-brand" href="{{ url_for('experience') }}">Experience</a>
         <a class="navbar-brand" href="{{ url_for('certificates') }}">Certificates</a>

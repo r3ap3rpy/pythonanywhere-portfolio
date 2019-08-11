@@ -3,6 +3,7 @@ import os
 import json
 import logging
 
+from bs4 import BeautifulSoup
 from flask import Flask, render_template,send_from_directory, request
 from github import Github
 from datetime import datetime, timedelta
@@ -38,8 +39,6 @@ for env_variable in ['PAT','YTCHN','YTAPI','CLID','CLSEC']:
 	else:
 		logger.critical(f"# Cannot find environment variable: {env_variable}, cannot continue!")
 		raise SystemExit
-
-print(EnvCache)
 
 logger.info(f"# Creating basic authentication for Udemy")
 auth = HTTPBasicAuth(EnvCache['CLID'],EnvCache['CLSEC'])
@@ -140,6 +139,25 @@ def udemy():
 
 	return render_template('udemy.html', Paid = PAID, Free = FREE)
 
+@app.route("/psight")
+def psight():
+	logger.info(f"# Servving /psight to client on address: {request.remote_addr} with user agent: {request.user_agent}")
+
+	publications = requests.get(url = "https://app.pluralsight.com/guides")
+	BSBody = BeautifulSoup(publications.text,'html.parser') 
+	Pubs = []
+	for div in BSBody.find_all('div',{'class':'jsx-3332796322 card'}):
+		if div.find('span',{'class':'jsx-3332796322 author-name'}).text == "Dániel Szabó":
+			for href in div.find_all('a',href=True):
+				if '/guides' in href['href']:
+					break
+			for datepublished in div.find_all('li',{'class':'jsx-3332796322'}):
+				if ', 20' in datepublished.text:
+					break
+				
+			Pubs.append([href['href'],div.find('div',{'class':'jsx-3332796322 title'}).text, datepublished.text])
+
+	return render_template('psight.html', publications = Pubs)
 
 @app.route("/education")
 def education():
